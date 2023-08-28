@@ -1,27 +1,3 @@
-<p align="center">
-  <img src="https://github.com/e-hengirmen/Huffman_Coding/blob/master/images/logo.png">
-</p>
-
-<h1 align="center">Huffman Coding</h1>
-
-<p align="center">
-  <a href="https://github.com/e-hengirmen/Huffman_Coding/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/e-hengirmen/Huffman_Coding"
-      alt="MIT License" />
-  </a>
-  <a href="https://www.linkedin.com/in/ersel-hengirmen/">
-    <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic-square&logo=linkedin&colorB=555"
-      alt="linkedin" />
-  </a>
-  <a href="https://github.com/e-hengirmen/Huffman-Coding/issues">
-    <img src="https://img.shields.io/github/issues-raw/e-hengirmen/huffman-coding"
-      alt="open issues" />
-  </a>
-  <a href="https://github.com/e-hengirmen/Huffman-Coding/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/e-hengirmen/huffman-coding"
-      alt="closed issues" />
-  </a>
-</p>
 
 Self-made C++ **file archiver** and **archive extractor** programs based on Huffman's lossless compression algorithm
 ## Table of Contents
