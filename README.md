@@ -1,55 +1,56 @@
+# Payroll Management System
 
-Self-made C++ **file archiver** and **archive extractor** programs based on Huffman's lossless compression algorithm
-## Table of Contents
+The Payroll Management System is a command-line application that allows users to manage employee records and perform various operations related to payroll management. The system provides the following features:
 
-* [How does it work](#how-does-it-work)
-  * [Compressor](#compressor)
-  * [Decompressor](#decompressor)
-* [How to use it?](#how-to-use-it)
-* [Versions](#versions)
+## Features
 
-## How does it work?
-_You can check out documentation inside [Compressor.cpp](https://github.com/e-hengirmen/Huffman_Coding/blob/master/Compressor.cpp) and [Decompressor.cpp](https://github.com/e-hengirmen/Huffman_Coding/blob/master/Decompressor.cpp) files to help you understand Huffman's algorithm's inner workings._
-### Compressor:
-The `Compressor` is a 2-pass program. What I mean by this is that the `Compressor` reads input files twice.
+1. **Add/Insert Employee Record:** Users can add new employee records to the system.
 
-In the first pass, the program counts usage frequency of every unique byte and creates a weighted translation tree for every used unique byte inversely proportional to its usage frequency and then writes this transformation info to the compressed file for decompression purposes
+2. **Edit and Delete Record:** Employee records can be edited and deleted as needed.
 
-In the second pass, the program translates input files according to the translation tree and writes it to the newly created compressed file
+3. **Search Employee Record:** Users can search for specific employee records using relevant criteria.
 
-### Decompressor:
-The `Decompressor` is a 1-pass program:
-The `Decompressor` first reads translation info and creates a binary tree from it. After this process is done, it uses this binary translation tree to decode the rest of the file
+4. **Display Employee List:** The system can display the list of all employees in the table.
 
-## How to use it?
-1. Compile with `make` using your favourate shell:
-```
-make all
-```
-2. After running make, you can use `archive` command below to compress the file you want:
-* To compress one file use:
-```
-./archive {{filename}}
-```
-* To compress multiple files use:
+5. **Print Employee Payslip:** Users have the option to print payslips for employees.
 
-```
-./archive {{filename1}} {{filename2}} ...
-```
-3.  And to decompress a compressed file, use the `extract` command below:
-```
-./extract {{filename}}
-```
-## Versions
-* [Version 2.0(Latest Version)](https://github.com/e-hengirmen/Huffman_Coding/tree/Version-2.0)
-  * Can compress any file and folder you want
-  * Useful for educative purposes
-  * Uses more functionalized structure
-* [Version 1.0](https://github.com/e-hengirmen/Huffman_Coding/tree/Version-1.0) 
-  * Compresses multiple files 
-  * Version 1.0 can not be used to compress folders
-* [Version 0.9](https://github.com/e-hengirmen/Huffman_Coding/tree/Version-0.9) 
-  * Compresses 1 file at a time
-  * Version 0.9 can not be used to compress folders
-  * Easier to understand
-  * Useful for educative purposes
+6. **Quit Program:** Users can exit the program gracefully.
+
+## User Interface
+
+The user interacts with the program by selecting an option based on the operation they want to perform. Depending on the chosen option, the user will be prompted to enter relevant information to complete the operation.
+
+## How to Use
+
+1. Load and login to the system.
+
+2. Once logged in, the main menu will be displayed.
+
+3. Choose an option based on the desired operation:
+   - Press `i` to insert a new employee record.
+   - Press `e` to edit an existing employee record.
+   - Press `d` to delete an employee record.
+   - Press `s` to search for a specific employee record.
+   - Press `l` to list all employees.
+   - Press `p` to print an employee payslip.
+   - Press `q` to quit the program.
+
+4. Follow the prompts to complete the chosen operation.
+
+## Dependencies
+
+This program doesn't require any external dependencies beyond the standard C++ library.
+
+## Compatibility
+
+The program runs on the command-line interface and should be compatible with most operating systems.
+
+## Usage Example
+
+![INFORMATION](Images/1.png)
+![](Images/2.png)
+![](Images/3.png)
+![](Images/4.png)
+![](Images/5.png)
+![](Images/6.png)
+![](Images/7.png)
