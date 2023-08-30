@@ -47,7 +47,7 @@ The program runs on the command-line interface and should be compatible with mos
 
 ## Usage Example
 
-![INFORMATION](Images/1.png)
+
 ![](Images/2.png)
 ![](Images/3.png)
 ![](Images/4.png)
